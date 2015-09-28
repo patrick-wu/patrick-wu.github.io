@@ -1,0 +1,22 @@
+---
+layout: default
+title: Blog
+---
+
+<section class="content">
+  <h2>Blog</h2>
+
+</section>
+
+<div class="row entries">
+  {% for post in site.posts %}
+
+  <div class="col-md-3">
+    <a href="{{ post.url }}">
+      <img class="blog-img" src="{{ post.image }}" />
+      <h3>{{ post.title }}</h3>
+    </a>
+  </div>
+
+  {% endfor %}
+</div>
