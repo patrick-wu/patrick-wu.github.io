@@ -1,14 +1,18 @@
 #intro{
   color: white;
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
 #profile-pic{
-  padding-top:30px;
-  max-width: 100%;
+  padding-top:45px;
+  max-width: 75%;
 }
 
-#about{
+.container{
+  min-height:650px;
+}
+
+body{
   height:100%;
 }
 

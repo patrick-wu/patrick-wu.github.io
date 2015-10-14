@@ -1,8 +1,53 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Patrick Wu</title>
 
-<body id="top">
+		<!-- meta -->
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <!-- css -->
+			<link rel="stylesheet" href="/css/bootstrap.min.css">
+			<link rel="stylesheet" href="/css/custom.css">
+			<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+	    <!-- js -->
+	    <script src="/js/jquery.min.js"></script>
+	    <script src="/js/bootstrap.min.js"></script>
+			<script src="/js/script.js"></script>
+			<script src="/js/jquery.actual.min.js"></script>
+	</head>
+
+	<body>
+		<div id="wrapper">
+
+				<section id= "navigation">
+					<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	  					<div class="container-fluid">
+	    					<div class="navbar-header">
+	      						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					        		<span class="ion-navicon"></span>
+					      		</button>
+					      		<a class="navbar-brand" href="/index.html">Patrick Wu</a>
+					    	</div>
+	    					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      					<ul class="nav navbar-nav navbar-right">
+		      						<li><a href="#about">About Me</a></li>
+		      						<li><a href="#projects">Projects</a></li>
+											<li><a href="/resume.html">Resume</a></li>
+		        					<li><a href="/blog/index.html">My Blog</a></li>
+		        					<li><a href="#contact">Contacts</a></li>
+							    </ul>
+	    					</div>	<!-- collapse navbar-collapse -->
+	  					</div>	<!-- container-fluid -->
+					</nav>	<!-- navbar -->
+				</section>	<!-- #navigation -->
+
+
+		</div>	<!-- wrapper -->
+
+		<body id="top">
 <div id="cv" class="instaFade">
 	<div class="mainDetails">
 		<div id="headshot" class="quickFade">
@@ -17,8 +62,8 @@ layout: default
 		<div id="contactDetails" class="quickFade delayFour">
 			<ul>
 				<li>e: <a href="wu.yanxiu27@gmail.com" target="_blank">wu.yanxiu27@gmail.com</a></li>
-				<li>w: <a href="http://www.bloggs.com">www.bloggs.com</a></li>
-				<li>m: 01234567890</li>
+				<li>w: <a href="http://patrick-wu.github.io">patrick-wu.github.io</a></li>
+				<li>L: <a href="www.linkedin.com/in/patrickywu">www.linkedin.com/in/patrickywu</a></li>
 			</ul>
 		</div>
 		<div class="clear"></div>
@@ -32,9 +77,46 @@ layout: default
 				</div>
 
 				<div class="sectionContent">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor metus, interdum at scelerisque in, porta at lacus. Maecenas dapibus luctus cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
+					<p>
+						Self driven Computer Engineering student with proficient knowledge for full stack development. Highly collaborative in team work environment and well-versed in communicating with others.
+					</p>
 				</div>
 			</article>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1 class="resume-text-color">Education</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<h2 class="resume-text-color">Univeristy of Toronto</h2>
+					<p class="subDetails">Computer Engineering, Class of 2018</p>
+				</article>
+
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1 class="resume-text-color">Key Skills</h1>
+			</div>
+
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Data Analysis</li>
+					<li>Project Management</li>
+					<li>Python</li>
+					<li>C/C++</li>
+					<li>Ruby on Rails</li>
+					<li>SQL</li>
+					<li>HTML/CSS</li>
+					<li>Javascript/jQuery</li>
+				</ul>
+			</div>
 			<div class="clear"></div>
 		</section>
 
@@ -46,64 +128,38 @@ layout: default
 
 			<div class="sectionContent">
 				<article>
-					<h2 class="resume-text-color">Job Title at Company</h2>
-					<p class="subDetails">April 2011 - Present</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
+					<h2 class="resume-text-color">Engineering Camp Coordinator at <a href="http://www.welcomecentre.ca/">Welcome Centre</a></h2>
+					<p class="subDetails">June 2015 - August 2015</p>
+					<p>Executed 5-week STEM summer camp curriculum for newcomer youths in York region. Cultivated participants' interest in the STEM field through presentations and activities involving web development, CAD drawing sessions, and straw-bridge constructions. Implemented a custom Jeopardy! web application with jQuery (see Github).</p>
 				</article>
 
 				<article>
-					<h2 class="resume-text-color">Job Title at Company</h2>
-					<p class="subDetails">Janruary 2007 - March 2011</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-				</article>
-
-				<article>
-					<h2 class="resume-text-color">Job Title at Company</h2>
-					<p class="subDetails">October 2004 - December 2006</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
+					<h2 class="resume-text-color">Information Technology Specialist at <a href="http://www.toronto.thecyc.ca/home">City Youth Council</a></h2>
+					<p class="subDetails">September 2012 - August 2014</p>
+					<p>Monitored and operated a real-time electronic voting system. Improved minute publication rate from 72 hours to less than 24 hours in the first 6 months of operations.</p>
 				</article>
 			</div>
 			<div class="clear"></div>
 		</section>
 
-
 		<section>
 			<div class="sectionTitle">
-				<h1 class="resume-text-color">Key Skills</h1>
-			</div>
-
-			<div class="sectionContent">
-				<ul class="keySkills">
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-					<li>A Key Skill</li>
-				</ul>
-			</div>
-			<div class="clear"></div>
-		</section>
-
-
-		<section>
-			<div class="sectionTitle">
-				<h1 class="resume-text-color">Education</h1>
+				<h1 class="resume-text-color">Projects</h1>
 			</div>
 
 			<div class="sectionContent">
 				<article>
-					<h2 class="resume-text-color">College/University</h2>
-					<p class="subDetails">Qualification</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
+					<h2 class="resume-text-color">Rails Club Database - UofT Engineering Society</h2>
+					<p class="subDetails">September 2015 - Present</p>
+					<p>
+						Identified need for using relational database to store and analyze school club data. Currently designing and implementing said SQL database, with Ruby on Rails used as UI Application Framework to support budget analysis.
+					</p>
 				</article>
 
 				<article>
-					<h2 class="resume-text-color">College/University</h2>
-					<p class="subDetails">Qualification</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
+					<h2 class="resume-text-color">Rails Cooking-Recipes Website - Self Interest</h2>
+					<p class="subDetails">August 2015 - September 2015</p>
+					<p>Implemented a web application that allows users to create and share cooking recipes. Incorporated features such as user authentication, SQL database, Bootstrap UI components, and Amazon Web Services. (See Github).</p>
 				</article>
 			</div>
 			<div class="clear"></div>
@@ -121,3 +177,18 @@ pageTracker._initData();
 pageTracker._trackPageview();
 </script>
 </body>
+
+
+
+  </body>
+
+	<!-- footer -->
+	<section id= "footer" class= "footer">
+
+		<div class= "row">
+			<div class= "copyright text-center">
+				<p> we can we can we can we can demolish 350 beers</p>
+			</div>
+		</div>
+	</section><!-- footer -->
+</html>
